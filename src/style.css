@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --bg-color: #fff;
+    --deep-color: #10B981;
+    --light-color: #D1FAE5;
+    --head-color: #1B1C57;
+    --par-color: #626687;
+    --head-text: 2rem;
+    --par-text: 1rem
+}
+
+body{
+    background: var(--bg-color);
+    max-width: 1440px;
+    padding: 0px 7.5rem;
+    font-family: lexend;
+    font-size: 1rem;
+}
