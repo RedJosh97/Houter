@@ -68,7 +68,7 @@ export default {
 }
 
 .la-map-marker {
-  color: orange;
+  color: #f59e0b;
 }
 
 .hero-left-section p {
