@@ -73,6 +73,7 @@ export default {
 
 .hero-left-section p {
   line-height: 28px;
+  color: var(--par-color);
 }
 .hero-left-section input {
   padding: 4px 4px 4px 24px;

@@ -1,12 +1,5 @@
 <template>
-  <div class="feature-section">
-    <HousingProps
-      title="woodlandside"
-      amount="$ 20.000.00"
-      profilePicture=""
-      name="Robert Fox"
-      description="Dr. San Jane South Dakota"
-    />
+  <div class="feature-container-wrapper">
     <div class="feature">
       <div class="feature-style">
         <HeadlineProps subTitle="Our Recomendation" title="FeatureHouse" />
@@ -23,10 +16,45 @@
         </div>
       </div>
     </div>
+    <div class="housing-props-container">
+      <HousingProps
+        :building="'/public/images/Rectangle 15-2.png'"
+        title="Roselands House"
+        amount="$ 35. 000. 000"
+        :profilePicture="'/public/images/Ellipse 6-2.png'"
+        name="Dianne Rossele"
+        description="Manchester Kentucky"
+      />
+      <HousingProps
+        :building="'/public/images/Rectangle 15-1.png'"
+        title="woodlandside"
+        amount="$ 20. 000. 000"
+        :profilePicture="'/public/images/Ellipse 6-1.png'"
+        name="Robert Fox"
+        description="Dr. San Jose, South Dakota"
+      />
+      <HousingProps
+        :building="'/public/images/Rectangle 15-3.png'"
+        title="The old ligth house"
+        amount="$ 40. 000. 000"
+        :profilePicture="'/public/images/Ellipse 6-3.png'"
+        name="Roland Richards"
+        description="Santa Ana, Illinois"
+      />
+      <HousingProps
+        :building="'/public/images/Rectangle 15.png'"
+        title="woodlandside"
+        amount="$ 20. 000. 000"
+        :profilePicture="'/public/images/Ellipse 6.png'"
+        name="Robert Fox"
+        description="Dr. San Jose, South Dakota"
+      />
+    </div>
   </div>
 </template>
 
 <script>
+import HeadlineProps from './HeadlineProps.vue'
 import HousingProps from './HousingProps.vue'
 
 export default {
@@ -70,6 +98,14 @@ export default {
   gap: 3%;
   background: transparent;
   border: 1px solid #e0e3eb;
+}
+
+.housing-props-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  padding-top: 40px;
 }
 
 .btn-side {
