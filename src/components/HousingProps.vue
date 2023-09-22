@@ -23,11 +23,10 @@ export default {
 </script>
 
 <style scoped>
-/* .housing-props-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-} */
+.housing-props-wrapper {
+  min-width: 120px;
+}
+
 .housing-image-container {
   width: 220px;
   height: 250px;
@@ -36,7 +35,7 @@ export default {
 .building {
   object-fit: cover;
   width: 100%;
-  height: 100%;
+  height: 250px;
   border-radius: 23px;
 }
 .profile-content-wrapper {

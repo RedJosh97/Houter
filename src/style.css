@@ -17,9 +17,15 @@
 }
 
 body{
+    margin: 0 auto;
     background: var(--bg-color);
     max-width: 1440px;
     padding: 0px 7.5rem;
     font-family: lexend;
     font-size: 1rem;
+    color: var(--head-color)
+}
+
+.las{
+    font-size: 22px;
 }

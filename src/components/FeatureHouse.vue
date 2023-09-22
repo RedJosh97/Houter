@@ -64,6 +64,9 @@ export default {
 </script>
 
 <style scoped>
+.feature-container-wrapper {
+  margin-top: 7rem;
+}
 .feature {
   padding-top: 5rem;
   display: flex;
@@ -103,7 +106,8 @@ export default {
 .housing-props-container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
   gap: 2.5rem;
   padding-top: 40px;
 }

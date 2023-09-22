@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="headline-props">
     <p class="subtitle">{{ subTitle }}</p>
     <p class="title">{{ title }}</p>
   </div>
@@ -13,6 +13,9 @@ export default {
 </script>
 
 <style scoped>
+/* .headline-props {
+  max-width: 70%;
+} */
 .title {
   color: var(--head-color);
   font-size: 2rem;
