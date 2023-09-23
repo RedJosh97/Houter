@@ -4,6 +4,10 @@
       <HeadlineProps subTitle="Ready to sell!!" title="Let's Tour and see our House!" />
       <div class="tour-wrapper-left">
         <div class="house-details">
+          <p>
+            Houses recommended by our partners that have been curated to become the home of your
+            dreams!
+          </p>
           <p class="details-text">House Detail</p>
           <div class="house-product-wrapper">
             <div class="house-details-product">
@@ -38,6 +42,8 @@
     <div class="tour-wrapper-right">
       <img class="play-button" src="/public/images/bi_play-circle-fill.png" />
       <div class="tour-image-wrapper">
+        <img class="clipper" src="/public/images/Vector (2).png" />
+
         <img src="/public/images/Rectangle 17.png" />
         <div class="small-house-container">
           <img class="rectangle-image" src="/public/images/Rectangle 18.png" />
@@ -60,8 +66,9 @@ export default {
 
 <style scoped>
 .lets-tour-container {
-  padding-top: 120px;
+  padding-top: 80px;
   display: flex;
+  gap: 12px;
   justify-content: space-between;
   align-items: center;
 }
@@ -71,7 +78,10 @@ export default {
   align-items: center;
 }
 .tour-wrapper-left {
-  max-width: 380px;
+  max-width: 430px;
+  margin-top: 2rem;
+  display: flex;
+  gap: 16px;
 }
 .house-details .details-text {
   font-weight: 700;
@@ -80,15 +90,27 @@ export default {
 .house-details p {
   color: var(--par-color);
 }
-
+.clipper {
+  position: absolute;
+  top: -270px;
+  right: -120px;
+  /* transform: translateX(118.9%) translateY(-47%); */
+  overflow: hidden;
+  z-index: -20;
+}
+.details-text {
+  margin-bottom: 12px;
+}
 .house-product-wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  row-gap: 13px;
 }
 .profile-content .cont-name {
   color: var(--head-color);
 }
 .tour-profile-container {
+  /* position: relative; */
   display: flex;
   align-items: center;
   gap: 18px;
@@ -96,6 +118,9 @@ export default {
   padding-top: 48px;
 }
 .tour-wrapper-right {
+  position: relative;
+}
+.tour-image-wrapper {
   position: relative;
 }
 .tour-image-wrapper img {

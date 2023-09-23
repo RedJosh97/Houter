@@ -4,6 +4,7 @@
     <HeroSection />
     <FeatureHouse />
     <TourHousing />
+    <TimeLineArticle />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import NavBar from './components/NavBar.vue'
 import HeroSection from './components/HeroSection.vue'
 import FeatureHouse from './components/FeatureHouse.vue'
 import TourHousing from './components/TourHousing.vue'
+import TimeLineArticle from './components/TimelineArticle.vue'
 
 export default {
   name: 'App',
@@ -19,7 +21,8 @@ export default {
     NavBar,
     HeroSection,
     FeatureHouse,
-    TourHousing
+    TourHousing,
+    TimeLineArticle
   }
 }
 </script>
