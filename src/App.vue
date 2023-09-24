@@ -5,6 +5,8 @@
     <FeatureHouse />
     <TourHousing />
     <TimeLineArticle />
+    <SellingHome />
+    <FooterSection />
   </div>
 </template>
 
@@ -14,6 +16,8 @@ import HeroSection from './components/HeroSection.vue'
 import FeatureHouse from './components/FeatureHouse.vue'
 import TourHousing from './components/TourHousing.vue'
 import TimeLineArticle from './components/TimelineArticle.vue'
+import FooterSection from './components/FooterSection.vue'
+import SellingHome from './components/SellingHome.vue'
 
 export default {
   name: 'App',
@@ -22,7 +26,9 @@ export default {
     HeroSection,
     FeatureHouse,
     TourHousing,
-    TimeLineArticle
+    TimeLineArticle,
+    FooterSection,
+    SellingHome
   }
 }
 </script>

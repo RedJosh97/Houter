@@ -64,7 +64,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 .lets-tour-container {
   padding-top: 80px;
   display: flex;
