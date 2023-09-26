@@ -38,13 +38,17 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 104px;
+  gap: 504px;
 }
 .partnership p {
   font-weight: 300;
   color: var(--par-color);
 }
 
+.input-box {
+  min-width: 230px;
+  border: 1px solid green;
+}
 .hero-left-section {
   display: flex;
   justify-content: space-between;
@@ -86,6 +90,8 @@ export default {
   border-radius: 32px;
   border: 1px solid #e0e3eb;
   padding: 4px 4px 4px 24px;
+  border: 1px solid green;
+  min-width: 340px;
 }
 .search-box input {
   height: 22px;
@@ -93,6 +99,8 @@ export default {
   border: none;
 }
 .search-box-btn {
+  display: flex;
+  align-items: center;
   padding: 12px 16px;
   background: var(--deep-color);
   color: #fff;
@@ -100,8 +108,9 @@ export default {
   border: none;
 }
 .hero-right-section img {
-  width: 50%;
-  height: 90vh;
+  width: 55%;
+  height: 560px;
+  min-height: 560px;
   object-fit: cover;
   border-radius: 0px 0px 0px 80px;
   position: absolute;

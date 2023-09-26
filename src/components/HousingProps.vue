@@ -28,7 +28,7 @@ export default {
 }
 
 .housing-image-container {
-  width: 220px;
+  max-width: 450px;
   height: 250px;
   margin-bottom: 24px;
 }

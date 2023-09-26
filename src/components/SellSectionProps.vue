@@ -30,6 +30,10 @@ export default {
   margin: 14px 0;
 }
 
+.min-ago {
+  display: flex;
+  align-items: center;
+}
 .sell-section-container {
   min-width: 330px;
   display: flex;

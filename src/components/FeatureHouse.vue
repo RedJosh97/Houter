@@ -67,11 +67,13 @@ export default {
 .feature-container-wrapper {
   margin-top: 7rem;
 }
+
 .feature {
   padding-top: 5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-right: 46px;
 }
 .feature-house-btn {
   display: flex;
@@ -108,7 +110,7 @@ export default {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 2.5rem;
+  gap: 14px;
   padding-top: 40px;
 }
 
@@ -122,5 +124,12 @@ export default {
   border-radius: 27px;
   background: var(--deep-color);
   color: #fff;
+}
+@media (max-width: 1156px) {
+  .housing-props-container {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 </style>

@@ -56,15 +56,17 @@ export default {
 
 .nav-list li {
   display: inline;
-  gap: 24px;
   color: red;
   padding: 8px 16px;
   margin: 0 10px;
   background: green;
+  outline: 1px solid #fff;
   background: transparent;
   color: #fff;
   border-radius: 32px;
   list-style: none;
+  /* font-size: 1.3vw; */
+  font-size: (90%, 1.3rem);
 }
 
 .btn-light {
