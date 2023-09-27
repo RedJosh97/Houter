@@ -38,13 +38,13 @@
         </div>
       </div>
     </div>
-    <div class="container-left-right"></div>
     <div class="tour-wrapper-right">
-      <img class="play-button" src="/public/images/bi_play-circle-fill.png" />
+      <div class="imageg">
+        <img class="play-button" src="/public/images/bi_play-circle-fill.png" />
+      </div>
       <div class="tour-image-wrapper">
         <img class="clipper" src="/public/images/Vector (2).png" />
-
-        <img src="/public/images/Rectangle 17.png" />
+        <img class="billboard-image" src="/public/images/Rectangle 17.png" />
         <div class="small-house-container">
           <img class="rectangle-image" src="/public/images/Rectangle 18.png" />
           <img src="/public/images/Rectangle 19.png" />
@@ -66,7 +66,7 @@ export default {
 
 <style>
 .lets-tour-container {
-  padding-top: 80px;
+  padding: 80px 7rem 0;
   display: flex;
   gap: 12px;
   justify-content: space-between;
@@ -79,6 +79,7 @@ export default {
 }
 .tour-wrapper-left {
   max-width: 430px;
+  min-width: 330px;
   margin-top: 2rem;
   display: flex;
   gap: 16px;
@@ -113,6 +114,7 @@ export default {
   /* position: relative; */
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 18px;
   border-radius: 3px;
   padding-top: 48px;
@@ -129,7 +131,6 @@ export default {
 
 .small-house-container .rectangle-image {
   height: 120px;
-  background: green;
 }
 .play-button {
   transform: translateX(450%) translateY(450%);
@@ -140,10 +141,13 @@ export default {
   justify-content: space-between;
   align-items: end;
   gap: 12px;
-  width: 70%;
   height: 140px;
   position: absolute;
   transform: translateX(-9%) translateY(-80%);
+}
+
+.billboard-image {
+  min-width: 330px;
 }
 .small-house-container img {
   object-fit: cover;

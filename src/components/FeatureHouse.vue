@@ -66,6 +66,7 @@ export default {
 <style scoped>
 .feature-container-wrapper {
   margin-top: 7rem;
+  padding: 0px 7rem;
 }
 
 .feature {

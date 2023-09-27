@@ -1,8 +1,9 @@
 <template>
   <div class="timeline-template-container">
-    <img class="sample-image" :src="sampleImage" />
+    <div class="sample-image-container">
+      <img class="sample-image" :src="sampleImage" />
+    </div>
     <div class="content-container">
-      <div class="text-content-wrapper"></div>
       <p>{{ title }}</p>
       <p>{{ content }}</p>
       <div class="profile-content-wrapper">
@@ -37,28 +38,30 @@ export default {
 
 <style scoped>
 .timeline-template-container {
-  max-width: 740px;
-  position: relative;
+  min-width: 600px;
+  height: 440px;
 }
 
 .sample-image {
-  width: 100%;
-  height: 420px;
+  width: 90%;
+  height: 320px;
   border-radius: 9px;
   object-fit: cover;
 }
 
+.content-container p {
+  font-size: 0.9rem;
+}
 .content-container {
   background: #fff;
   margin: 0 auto;
-  max-width: 612px;
-  min-width: 110px;
-  padding: 9px 32px;
+  width: 450px;
+  padding: 12px 32px;
   display: flex;
   border-radius: 16px;
-  gap: 24px;
+  gap: 15px;
   flex-direction: column;
-  transform: translateY(-60%);
+  transform: translateX(-6%) translateY(-60%);
 }
 .pro-img {
   margin-right: 16px;

@@ -39,6 +39,7 @@ export default {
   justify-content: space-between;
   align-items: center;
   gap: 504px;
+  padding: 0px 7rem;
 }
 .partnership p {
   font-weight: 300;

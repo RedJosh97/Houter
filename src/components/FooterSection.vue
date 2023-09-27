@@ -58,6 +58,7 @@ export default {
   font-size: 12.5px;
   gap: 32px;
   position: relative;
+  padding: 0px 7rem 4rem;
 }
 
 .head-text {
@@ -80,12 +81,12 @@ export default {
 
 .clipper2 {
   position: absolute;
-  top: -240px;
+  top: -90px;
   right: -120px;
 }
 .clipper {
   position: absolute;
-  top: -164px;
+  top: -4px;
   right: -40px;
   width: 350px;
   transform: rotate(270deg);
@@ -94,14 +95,19 @@ export default {
 .left-side-wrapper {
   max-width: 330px;
   display: flex;
+  /* align-items: flex-start; */
+  justify-content: space-evenly;
   flex-direction: column;
   gap: 23px;
 }
 .right-side-wrapper {
   display: flex;
   flex-wrap: wrap;
-  gap: 50px;
+  gap: 30px;
   line-height: 30px;
-  justify-content: flex-end;
+  justify-content: end;
+}
+
+@media (max-width: 1075px) {
 }
 </style>

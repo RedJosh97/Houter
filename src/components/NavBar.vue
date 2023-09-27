@@ -25,7 +25,7 @@ export default {
 <style scoped>
 .nav-bar-section {
   height: 50px;
-  padding-top: 9px;
+  padding: 9px 7rem 0;
   display: flex;
   justify-content: space-between;
   align-items: center;

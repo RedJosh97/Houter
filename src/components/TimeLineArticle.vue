@@ -57,6 +57,7 @@ export default {
 .timeline {
   text-align: center;
   margin-top: 100px;
+  padding: 0px 7rem;
 }
 
 .timeline-article {
@@ -65,21 +66,21 @@ export default {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 40px;
-  overflow-x: scroll;
+  gap: 10px;
 }
 
-.timeline-article::-webkit-scrollbar {
+/* .article-wrapper::-webkit-scrollbar {
   background: var(--light-color);
-  height: 5px;
+  height: 10px;
   border-radius: 4px;
-}
+  border-radius: 50px;
+} */
 
 .article-wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  width: 2900px;
-  overflow-x: hidden;
+  width: 1240px;
+  overflow-x: scroll;
 }
 </style>
