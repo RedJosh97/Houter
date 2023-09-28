@@ -58,7 +58,7 @@ export default {
   font-size: 12.5px;
   gap: 32px;
   position: relative;
-  padding: 0px 7rem 4rem;
+  padding: 0 7rem;
 }
 
 .head-text {
@@ -81,12 +81,12 @@ export default {
 
 .clipper2 {
   position: absolute;
-  top: -90px;
+  top: -280px;
   right: -120px;
 }
 .clipper {
   position: absolute;
-  top: -4px;
+  top: -200px;
   right: -40px;
   width: 350px;
   transform: rotate(270deg);
@@ -106,8 +106,5 @@ export default {
   gap: 30px;
   line-height: 30px;
   justify-content: end;
-}
-
-@media (max-width: 1075px) {
 }
 </style>
