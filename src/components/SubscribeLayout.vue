@@ -45,6 +45,7 @@ export default {
   flex-direction: column;
   align-items: center;
   position: relative;
+  z-index: 10;
 }
 .sub-wrapper p {
   color: var(--head-color);
@@ -86,9 +87,11 @@ export default {
   object-fit: cover;
   border-radius: 34px;
   border: 1.5px solid #fff;
+  z-index: -1;
 }
 .tiny-float-box {
   width: 36px;
+  z-index: -1;
   height: 36px;
   border-radius: 50px;
   object-fit: cover;

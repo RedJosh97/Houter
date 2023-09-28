@@ -14,9 +14,16 @@ export default {
 </script>
 
 <style scoped>
-/* .headline-props {
-  max-width: 70%;
-} */
+.subtitle::before {
+  content: '';
+  position: absolute;
+  top: 7px;
+  left: 51px;
+  width: 40px;
+  height: 3px;
+  background: var(--sub-color);
+  border-radius: 14px;
+}
 .title {
   color: var(--head-color);
   font-size: 2rem;

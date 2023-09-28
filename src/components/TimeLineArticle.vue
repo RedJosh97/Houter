@@ -69,13 +69,6 @@ export default {
   gap: 10px;
 }
 
-/* .article-wrapper::-webkit-scrollbar {
-  background: var(--light-color);
-  height: 10px;
-  border-radius: 4px;
-  border-radius: 50px;
-} */
-
 .article-wrapper {
   display: flex;
   justify-content: center;

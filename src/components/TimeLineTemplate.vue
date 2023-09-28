@@ -60,6 +60,7 @@ export default {
   display: flex;
   border-radius: 16px;
   gap: 15px;
+  box-shadow: 0px 9px 32px 0px rgba(89, 92, 219, 0.05);
   flex-direction: column;
   transform: translateX(-6%) translateY(-60%);
 }
